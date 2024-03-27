@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-whatsapp:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.btn-whatsapp img:hover {
+    scale: 1.06;
+}
+
+.btn-whatsapp .tooltip-text {
+    position: absolute;
+    text-align: center;
+    line-height: 150%;
+    width: 150px;
+    top: 8px;
+    left: -164px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white;
+    color: #18b452;
+    opacity: 0;
+    transition: opacity 0.5s;
+    visibility: hidden;
+}
